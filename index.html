@@ -1,1 +1,159 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nermont | Urejanje okolice</title>
 
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#111;
+color:#fff;
+}
+
+header{
+background:linear-gradient(90deg,#111,#f5b400);
+padding:30px;
+text-align:center;
+}
+
+header h1{
+font-size:48px;
+color:white;
+}
+
+header p{
+font-size:20px;
+margin-top:10px;
+}
+
+nav{
+background:#222;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:#f5b400;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+.hero{
+height:420px;
+background:url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1600&q=80") center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero div{
+background:rgba(0,0,0,.7);
+padding:35px;
+border-radius:15px;
+}
+
+.hero h2{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+background:#f5b400;
+color:#111;
+padding:15px 30px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:50px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#222;
+padding:25px;
+border-radius:12px;
+text-align:center;
+}
+
+.card h3{
+color:#f5b400;
+margin-bottom:15px;
+}
+
+.price{
+font-size:35px;
+color:#f5b400;
+font-weight:bold;
+margin-top:10px;
+}
+</style></head>
+<body>
+
+<header>
+    <div class="logo">
+        🌲 <strong>NERMONT</strong>
+    </div>
+
+    <h1>Urejanje okolice</h1>
+    <p>Košnja • Obrezovanje • Podiranje dreves • Urejanje vrtov</p>
+</header>
+
+<nav>
+    <a href="#storitve">Storitve</a>
+    <a href="#cenik">Cenik</a>
+    <a href="#galerija">Galerija</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section class="hero">
+    <div>
+        <h2>Poskrbimo za vašo okolico</h2>
+        <p>Hitro, kakovostno in ugodno.</p>
+    </div>
+</section>
+
+<section id="storitve">
+    <h2>Naše storitve</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🌿 Košnja trave</h3>
+            <p>Košnja vseh vrst površin.</p>
+        </div>
+
+        <div class="card">
+            <h3>✂️ Obrezovanje</h3>
+            <p>Žive meje, grmičevje in drevesa.</p>
+        </div>
+
+        <div class="card">
+            <h3>🪵 Podiranje dreves</h3>
+            <p>Varno podiranje vseh velikosti.</p>
+        </div>
+
+    </div>
+
+</section>
